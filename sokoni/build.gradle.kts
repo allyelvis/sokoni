@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.0"
+    id("org.openjfx.javafxplugin") version "0.0.10"
     id("maven-publish")
     id("signing")
 }
@@ -11,11 +12,16 @@ repositories {
     mavenCentral()
 }
 
+javafx {
+    version = "17"
+    modules = listOf("javafx.controls", "javafx.fxml")
+}
+
 publishing {
     publications {
         create<MavenPublication>("mavenJava") {
             from(components["java"])
-            
+
             groupId = "com.sokoni"
             artifactId = "sokoni"
             version = "0.0.1"
@@ -23,7 +29,7 @@ publishing {
             pom {
                 name.set("Sokoni")
                 description.set("A POS system in Kotlin.")
-                url.set("https://github.com/yourusername/yourrepository")
+                url.set("https://github.com/allyelvis/sokoni")
 
                 licenses {
                     license {
@@ -42,7 +48,7 @@ publishing {
 
                 scm {
                     connection.set("scm:git:git://github.com/allyelvis/sokoni.git")
-                    developerConnection.set("scm:git:ssh://git@github.com:allyelvis/sokoni.git")
+                    developerConnection.set("scm:git:ssh://allyelvis@github.com:allyelvis/sokoni.git")
                     url.set("https://github.com/allyelvis/sokoni")
                 }
             }

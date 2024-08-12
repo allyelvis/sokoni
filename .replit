@@ -33,5 +33,9 @@ externalPort = 3003
 localPort = 43043
 externalPort = 3000
 
+[[ports]]
+localPort = 44061
+externalPort = 6000
+
 [deployment]
 run = ["sh", "-c", "gradle build --debug"]
