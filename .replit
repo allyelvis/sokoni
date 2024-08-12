@@ -1,1 +1,20 @@
 run = "gradle build && java -cp build/libs/com.aenz.sokoni com.aenz.sokoni"
+
+[[ports]]
+localPort = 33145
+externalPort = 80
+
+[[ports]]
+localPort = 35561
+externalPort = 3002
+
+[[ports]]
+localPort = 36205
+externalPort = 3001
+
+[[ports]]
+localPort = 37543
+
+[[ports]]
+localPort = 43043
+externalPort = 3000
