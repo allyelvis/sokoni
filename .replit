@@ -1,0 +1,1 @@
+run = "gradle build && java -cp build/libs/com.aenz.sokoni com.aenz.sokoni"
