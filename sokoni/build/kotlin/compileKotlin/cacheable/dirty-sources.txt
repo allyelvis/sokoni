@@ -1,0 +1,2 @@
+/home/runner/sokoni/sokoni/src/main/kotlin/com/sokoni/SokoniApplication.kt
+/home/runner/sokoni/sokoni/src/main/kotlin/com/sokoni/Main.kt
