@@ -3,6 +3,7 @@
         "ms-toolsai.jupyter",
         "redhat.vscode-yaml",
         "ms-vscode.remote-explorer",
-        "abusaidm.html-snippets"
+        "abusaidm.html-snippets",
+        "yoavbls.pretty-ts-errors"
     ]
 }
