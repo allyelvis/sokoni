@@ -5,7 +5,7 @@ plugins {
 
 repositories {
     mavenCentral()
-}
+} 
 
 dependencies {
     implementation(kotlin("stdlib"))
@@ -20,4 +20,5 @@ dependencies {
 
 application {
     mainClass.set("com.aenz.sokoni.ApplicationKt")
-}
+}id("com.google.gms.google-services") version "4.4.2" apply false
+
