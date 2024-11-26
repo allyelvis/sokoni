@@ -4,6 +4,7 @@
         "redhat.vscode-yaml",
         "ms-vscode.remote-explorer",
         "abusaidm.html-snippets",
-        "yoavbls.pretty-ts-errors"
+        "yoavbls.pretty-ts-errors",
+        "c0der-himel.vscode-wev-dev-extension-pack"
     ]
 }
