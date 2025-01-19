@@ -1,0 +1,22 @@
+{
+  "name": "sokoni",
+  "version": "1.0.0",
+  "description": "pos system ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allyelvis/sokoni.git"
+  },
+  "keywords": [
+    "pos"
+  ],
+  "author": "Ally Elvis Nzeyimana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allyelvis/sokoni/issues"
+  },
+  "homepage": "https://github.com/allyelvis/sokoni#readme"
+}
